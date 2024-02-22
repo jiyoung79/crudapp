@@ -1,4 +1,4 @@
-## Node.js와 React를 사용하여 CRUD APP 만들기<br>
+## React, NodeJS, ExpressJS, MongoDB를 사용하여 CRUD APP 만들기<br>
 
 ```
 실행 : 터미널에 npm start 후 엔터
