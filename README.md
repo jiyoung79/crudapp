@@ -15,14 +15,12 @@
 * 내비에 검색 바 만들기 <br>
 * 반응형 웹 <br>
 
- <br>
- 
+
 #### register <br>
 * 상단에 Home으로 돌아갈 수 있는 태그 추가 <br>
 * Name, Email, Age, Mobile, Work, Address, Description 칸 생성 <br>
 * submit 생성 <br>
 
- <br>
- 
+
 #### edit <br>
 * Home2 생성(수정 후 바뀐 홈 화면으로 가는 태그) <br>
