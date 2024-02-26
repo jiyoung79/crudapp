@@ -1,4 +1,7 @@
 import React from "react";
+import RemoveRedEyeIcon from '@mui/icons-material/RemoveRedEye';
+import CreateIcon from '@mui/icons-material/Create';
+import DeleteOutlineIcon from '@mui/icons-material/DeleteOutline';
 
 const Home = () => {
   return (
@@ -28,18 +31,41 @@ const Home = () => {
               <td className="d-flex justify-content-between">
                 {/* READ */}
                 <button className="btn btn-success">
-                    <span class="material-symbols-outlined">preview</span>
+                    <RemoveRedEyeIcon />
                 </button>
                 {/* UPDATE */}
                 <button className="btn btn-primary">
-                    <span class="material-symbols-outlined">edit</span>
+                    <CreateIcon />
                 </button>
                 {/* DELETE */}
                 <button className="btn btn-danger">
-                    <span class="material-symbols-outlined">delete</span>
+                <DeleteOutlineIcon />
                 </button>
               </td>
             </tr>
+            <tr>
+              <th scope="row">2</th>
+              <td>hello</td>
+              <td>hello@email.com</td>
+              <td>Webdeveloper</td>
+              <td>01033334444</td>
+              <td className="d-flex justify-content-between">
+                {/* READ */}
+                <button className="btn btn-success">
+                    <RemoveRedEyeIcon />
+                </button>
+                {/* UPDATE */}
+                <button className="btn btn-primary">
+                    <CreateIcon />
+                </button>
+                {/* DELETE */}
+                <button className="btn btn-danger">
+                <DeleteOutlineIcon />
+                </button>
+              </td>
+            </tr>
+
+
            
           </tbody>
         </table>
